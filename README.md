@@ -1,2 +1,2 @@
 # cath1100.github.io
-Welcome to my cover page for my projects 
+My name is Catherine Neysmith. This is my website to store and shar source code for my projects. :) 
