@@ -1,17 +1,22 @@
-function add(num1,num2)
+
+function add()
 {
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+
     document.write(num1+num2);
-    return num1+num2;
 }
-function subtract(num1,num2)
+function subtract()
 {
-    return num1-num2;
-}
-function myfunction()
-{
-    document.write("Welcome to javascript");
+    var num1 = parseInt(document.getElementById("num1").value);
+    var num2 = parseInt(document.getElementById("num2").value);
+
+    document.write(num1-num2);
 }
 
+
+
+/*
 const readline = require("readline");
 const rl = readline.createInterface({
     input: process.stdin,
@@ -19,7 +24,7 @@ const rl = readline.createInterface({
 });
 
 
-console.log("1. Add\n"+ "2. Subtract\n");
+//console.log("1. Add\n"+ "2. Subtract\n");
 
 rl.question("Pick a function: ", function(name) {
     rl.question("Enter num1 ", function(num1) {
@@ -43,3 +48,4 @@ rl.on("close", function() {
     console.log("\nBYE BYE !!!");
     process.exit(0);
 });
+*/
