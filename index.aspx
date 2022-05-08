@@ -1,0 +1,25 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="index" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+    <style>
+        h1{ text-align:center}
+        div{text-align:center}
+    </style>
+<head runat="server">
+    <title>C. Neysmith GitHub</title>
+</head>
+<body style="background-color:lavenderblush">
+
+    <form id="form1" runat="server" >
+        <h1 >C. Neysmith GitHub</h1>
+        <div>---------------------------------------------------------------------</div>
+    </form>
+    <p>
+        Projects:
+    </p>
+    <p><a href="">Addition/Subtraction Calculator</a></p>
+    
+</body>
+</html>
