@@ -1,0 +1,25 @@
+/* src/app/home/home.component.scss */
+
+/* :host is a special selector that targets the component's
+  own host element (the <app-home> tag)
+*/
+:host {
+  display: block;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.home-container {
+  text-align: center;
+}
+
+h1 {
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
