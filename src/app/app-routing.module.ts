@@ -4,7 +4,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 // 1. Import your components
 import { HomeComponent } from './home/home.component';
-// import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './about/about.component';
+import { ProjectsComponent } from './projects/projects.component';
 // import { ContactComponent } from './contact/contact.component';
 // import { NotFoundComponent } from './not-found/not-found.component';
 
@@ -14,10 +15,10 @@ const routes: Routes = [
   { path: '', component: HomeComponent, title: 'Home Page' },
 
   // When the URL is '...github.io/about', show the AboutComponent
-//   { path: 'about', component: AboutComponent, title: 'About Me' },
+  { path: 'about', component: AboutComponent, title: 'About Me' },
 
   // When the URL is '...github.io/contact', show the ContactComponent
-//   { path: 'contact', component: ContactComponent, title: 'Contact' },
+  { path: 'projects', component: ProjectsComponent, title: 'Projects' }
 
   // This is the "wildcard" route. If the URL matches nothing else,
   // show the NotFoundComponent.

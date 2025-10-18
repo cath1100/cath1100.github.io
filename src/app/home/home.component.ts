@@ -1,6 +1,7 @@
 // src/app/home/home.component.ts
 
 import { Component } from '@angular/core';
+import { RouterOutlet, RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
   selector: 'app-home', // This is how you'd use this component: <app-home></app-home>
